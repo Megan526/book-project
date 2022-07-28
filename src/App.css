@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+li.high {
+  border: 2px solid #f2360c;
+  background-color: #fbc0b2;
+}
+
+li.medium {
+  border: 2px solid #d5aa00;
+  background-color: #f7e6a0;
+}
+
+li.low {
+  border: 2px solid #1c7220;
+  background-color: #b3ffb6;
+}
