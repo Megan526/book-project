@@ -25,7 +25,6 @@ function TBRForm({addToRead}) {
             return
         }
 
-        //comment
 
         addToRead ({
             title: titleToSubmit,

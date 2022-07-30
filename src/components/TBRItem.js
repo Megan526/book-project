@@ -1,5 +1,4 @@
 import React from 'react';
-import CompleteButton from './CompleteButton';
 
 
 const TBRItem =({title, author}) => {
@@ -8,7 +7,6 @@ const TBRItem =({title, author}) => {
         <>
             <h3>{title}</h3>
             <p>{author}</p>
-            <CompleteButton/>
         </>
     );
 }
