@@ -7,7 +7,7 @@ const BooksTBR = () => {
         const [toRead, setToRead] = useState([
         {
             id:1,
-            title: 'The Song of Achilles',
+            title: 'Circe',
             author: 'Madeline Millar',
             priority: 'high'
         },
@@ -25,6 +25,7 @@ const BooksTBR = () => {
         const updatedBooks = [...toRead, submittedBook]
         setToRead(updatedBooks)
     }
+
 
     return (
         <>
